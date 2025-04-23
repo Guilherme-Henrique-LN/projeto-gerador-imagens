@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+}
+body{
+    background: linear-gradient(45deg, black, gray);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+header{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    display: block;
+    background: rgb(21, 21, 87);
+}
+p{
+    font-size: 19px;
+    color: #232323;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+    padding: 30px;
+    display: block;
+    border-radius: 15px;
+    background: darkgray;
+}
+.index{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    border-radius: 15px;
+    background: darkgrey;
+    color: #232323;
+    padding: 5px;
+    text-align: center;
+    width: 400px;
+    margin: 20px;
+}
+#bodyGaleria{
+    display: flex;
+    flex-direction: column;
+}
+.gerar{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    border-radius: 15px;
+    background: darkgrey;
+    margin: 30px;
+}
+#contato{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    border-radius: 15px;
+    background: darkgrey;
+    margin: 20px;
+}
+.labelContato{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    border-radius: 15px;
+    background: darkgrey;
+    padding: 5px;
+    width: 240px;
+    text-align: center;
+}
+#nome{
+    width: 240px;
+}
+#email{
+    width: 240px;
+}
+.inputContato{
+    height: 30px;
+    min-width: 300px;
+}
+.sobre{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    border-radius: 15px;
+    background: darkgrey;
+    margin-right: 1200px;
+}
+.botao-enviar{
+    border-radius: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.botao-enviar:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.botao-enviar:active{
+    background-color: aqua;
+}
+#inputDescricaoLabel{
+    padding: 5px;
+    width: 350px;
+}
+#descricao-imagem{
+    width: 350px;
+    height: 50px;
+}
+#form{
+    margin: 30px;
+}
+#pIndex{
+    margin: 30px;
+}
+#divIndex{
+    display: flex;
+    justify-content: center;
+}
+#botaoVoltarTopo{
+    border-radius: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+}
+#botaoVoltarTopo:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+#botaoVoltarTopo:active{
+    background-color: aqua;
+}
+#menuNav{
+    position: fixed;
+    text-align: right;
+    margin-left: 1145px;
+    font-size: 20px;
+    background-color: rgb(21, 21, 87);
+    padding: 2px;
+}
+input{
+    border-radius: 15px;
+    width: 300px;
+}
+textarea{
+    border-radius: 15px;
+}
+img{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+}
+table{
+    border-radius: 15px;
+    background: darkgrey;
+    padding: 15px;
+    color: white;
+}
+th{
+    border-radius: 15px;
+    background: darkslategray;
+}
+td{
+    border-radius: 15px;
+    background: darkslategray;
+}
